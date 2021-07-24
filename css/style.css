@@ -1,3 +1,49 @@
+header p{
+  color:teal;
+  
+  
+}
+header div{  
+display: block;
+height: 10vh;
+width: 100%;
+  
+}
+
+header nav ul  li {
+  
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2vh; 
+  display:inline-block;
+  
+  
+}
+nav{
+  padding: 5%;  
+}
+h1{
+ 
+ font-size: 40px; 
+ color: purple;
+ display: inline-block;
+ position: relative;
+ bottom: 5vh;
+ left: 70vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 fieldset {
     background-color: #eeeeee;
   }
