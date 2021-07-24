@@ -19,12 +19,21 @@
             <fieldset>
                 <legend>your order</legend>
                 <label for="">your name</label>
-                <input type="text" id="username" name="username"><br><br>
-                <select name="myselect" id="myselect">
+                <input type="text" id="username" name="username" required><br><br>
+                <select name="myselect" id="myselect" required>
                     <option value="shawrma" >shawrma </option>
                     <option value="burger">burger</option>
                     <option value="pizza">pizza </option>
-                </select>
+                </select><br>
+
+                <input type="checkbox" id="cheese" name="cheese" value="true" >
+                <label for="cheese"> with extra cheese</label><br>
+
+                <p>Please select what you want with your meal:</p>
+                <input type="radio" id="pepsi" name="pepsiorpotato" value=" with pepsi">
+                <label for="pepsi">pepsi</label><br>
+                <input type="radio" id="potato" name="pepsiorpotato" value=" with potato  " checked>
+                <label for="css">potato</label><br>
 
                 <input type="submit">
 
